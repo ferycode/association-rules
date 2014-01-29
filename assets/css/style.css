@@ -1,0 +1,222 @@
+/* Space out content a bit */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  /*background: #006699;*/
+  background: url("../img/Geometric-Pattern-1--Dark-Blue.png") repeat; 
+}
+
+a {
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.container {
+    background: #ffffff;
+    padding-top: 15px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 0 12px #333333;
+}
+
+.navbar {
+    max-width: 740px;
+    margin: 0px auto;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+.separator {
+    border-bottom: 1px solid #dddddd;
+    display: inline-block;
+    margin: 40px 0px 20px 0px;
+    position: relative;
+    width: 100%;
+}
+
+.separator.middle:after {
+    background-color: #444444;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    top: -1px;
+    width: 60px;
+}
+
+.carousel-inner .item img {
+    max-height: 350px;
+    width: 100%;
+}
+
+.link_slide a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link_slide h2 {
+  font-size: 40px;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #0088cc;
+  color: #ffffff;
+  transition: all 0.1s ease-in-out 0s;
+}
+
+.paging {
+  text-align: center;
+}
+
+.paging .pagination {
+  margin: 5px 0px 15px 0px;
+}
+
+.widget-title {
+    border-bottom: 2px solid #E9E9E9;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.widget-title h1 {
+  font-size: 36px;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin: 0 0 -2px;
+  border-bottom: 2px solid #333333;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    vertical-align: middle;
+}
+
+.table > thead > tr > td.info,
+.table > tbody > tr > td.info,
+.table > tfoot > tr > td.info,
+.table > thead > tr > th.info,
+.table > tbody > tr > th.info,
+.table > tfoot > tr > th.info,
+.table > thead > tr.info > td,
+.table > tbody > tr.info > td,
+.table > tfoot > tr.info > td,
+.table > thead > tr.info > th,
+.table > tbody > tr.info > th,
+.table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+
+.table-hover > tbody > tr > td.info:hover,
+.table-hover > tbody > tr > th.info:hover,
+.table-hover > tbody > tr.info:hover > td,
+.table-hover > tbody > tr.info:hover > th {
+  background-color: #d9edf7;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+    background: #ffffff;
+    border-radius: 0px 0px 5px 5px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 0 0 20px;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+
+  .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    width: 89%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+	.navbar {
+		border-radius: 0px;
+	}
+
+	.container {
+	    background: #ffffff;
+	    padding-top: 15px;
+	    border-radius: 0px;
+	    box-shadow: 0 0 12px #333333;
+	}
+
+  body {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    /*background: #006699;*/
+    background: url("../img/Geometric-Pattern-1--Dark-Blue.png") repeat; 
+  }
+}
